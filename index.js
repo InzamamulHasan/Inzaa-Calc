@@ -18,8 +18,7 @@ for(let i=0;i<a.length;i++){
 
 let equ=document.querySelector(".items2");
 var sum="";
-equ.addEventListener("click",function(){
-    
+equ.addEventListener("click",function(){ 
     if(ans!==""){
         sum=eval(ans);
     }
