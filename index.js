@@ -27,6 +27,13 @@ equ.addEventListener("click",function(){
     ans="";
     ans2="";
 })
+let can=document.querySelector(".cancel");
+can.addEventListener("click",function(){
+    ans="";
+    ans2="";
+    sum="";
+    document.querySelector(".c").innerText="";
+})
 
 
 
