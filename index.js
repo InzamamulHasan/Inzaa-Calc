@@ -11,7 +11,7 @@ for(let i=0;i<a.length;i++){
             str="/";
         }
         ans+=str;
-        //console.log(ans);
+    
         document.querySelector(".c").innerText=ans2;
     });
 }
